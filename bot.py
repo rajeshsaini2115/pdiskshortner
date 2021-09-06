@@ -37,7 +37,7 @@ Here is your  [Short Link]({short_link})''', quote=True)
 
 
 async def get_shortlink(link):
-    url = 'http://pdiskshortner.net/api'
+    url = 'http://linkapi.net/open/create_item'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
